@@ -1,29 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "unlimitedparticle",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Unlimited Particle",
+  "description": "Unlimited particles count!",
   "authors": [
-    "Me!"
+    "Shirasawa"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://neko-craft.com/",
+    "sources": "https://github.com/neko-craft/UnlimitedParticle"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "MIT",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "cn.apisium.unlimitedparticle.UnlimitedParticle"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "mixins.json"
   ],
 
   "depends": {
@@ -32,6 +31,5 @@
     "minecraft": "1.16.x"
   },
   "suggests": {
-    "another-mod": "*"
   }
 }
