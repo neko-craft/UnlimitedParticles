@@ -15,6 +15,6 @@ public class ParticleManagerMixin {
 			method = "method_18125"
 	)
 	private static int modifyMaxParticleCount(int value) {
-		return 100000;
+		return 200000;
 	}
 }
